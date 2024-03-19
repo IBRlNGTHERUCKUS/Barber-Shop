@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Copperplate;
+    src: url("./fonts/Copperplate\ Light.ttf");
+  }
+
+body {
+    background-color: black;
+    font-family: Copperplate;
+    margin: 0;
+}
+
+header, footer {
+    background-color: black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 12px;
+    flex-wrap: wrap;
+    min-height: 25vh
+}
+
+footer {
+    gap: 12px;
+}
+header .logo {
+    flex: 1;
+}
+
+header img {
+    max-width: 300px;
+}
+
+.hero {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.hero.first {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.evergreenbeauty.edu/wp-content/uploads/2022/05/Professional-barber-styling-hair-of-client.jpeg');
+}
+
+.hero.second {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://media.istockphoto.com/id/464406044/photo/little-boy-getting-his-head-shaved-by-barber.jpg?s=612x612&w=0&k=20&c=EK8g7XcRbL7SCntWt_fMGB-jhf0ANqGAIfwPQFNDfB0=');
+}
+
+
+.hero-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 0rem 10vw;
+}
+
+h1, h2, h3, li, p, a, .book {
+color: white;
+text-align: center;
+font-weight:500;
+margin: 0;
+text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 12px 24px 12px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border-bottom: solid 1px white;
+}
+
+.icon {
+    height: 50px;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.contact-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.book {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 4px 8px;
+    background-color: #24a0ed;
+    color: white;
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    width: 50vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 24px;
+    padding: 32px 12px;
+    border: white 1px solid;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+
+.dropdown-item {
+    border-bottom: white 2px solid;
+}
+
+.dropdown-item:hover {
+    color: blue;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px;
+}
+
+
+.gallery-image {
+    object-fit: contain;
+    width: 100%; 
+    max-width: 300px
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    border: solid red 2px; 
+}
+
+.barber-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    border-bottom: solid white 1px;
+}
