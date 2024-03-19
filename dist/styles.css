@@ -57,7 +57,7 @@ header img {
     padding: 0rem 10vw;
 }
 
-h2, h3, li, p, a, .book {
+h1, h2, h3, li, p, a, .book {
 color: white;
 text-align: center;
 font-weight:500;
@@ -162,4 +162,15 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     gap: 18px
+}
+
+.barber-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    border-bottom: solid white 1px;
 }
