@@ -153,15 +153,17 @@ text-decoration: none;
 
 
 .gallery-image {
-    max-width: 40vw;
-    min-width: 300px;
     object-fit: contain;
+    width: 100%; 
+    max-width: 300px
 }
 
 .left, .right {
     display: flex;
     flex-direction: column;
-    gap: 18px
+    gap: 18px;
+    align-items: center;
+    border: solid red 2px; 
 }
 
 .barber-info {
