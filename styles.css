@@ -155,7 +155,7 @@ text-decoration: none;
 .gallery-image {
     object-fit: contain;
     width: 100%; 
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .left, .right {
@@ -163,7 +163,6 @@ text-decoration: none;
     flex-direction: column;
     gap: 18px;
     align-items: center;
-    border: solid red 2px; 
 }
 
 .barber-info {
